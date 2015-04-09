@@ -49,7 +49,9 @@ public class LoggerFactory {
 	/**
 	 * Default logger that uses java.util.logging. 
 	 */
-	private static String jsr47LoggerClassName = "org.eclipse.paho.client.mqttv3.logging.JSR47Logger"; 
+	//private static String jsr47LoggerClassName = "org.eclipse.paho.client.mqttv3.logging.JSR47Logger";
+    private static String jsr47LoggerClassName = "org.eclipse.paho.client.mqttv3.logging.BasicLogger";
+
 	
 	/**
 	 * Find or create a logger for a named package/class. 
